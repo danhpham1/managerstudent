@@ -1,0 +1,35 @@
+*{
+    box-sizing: border-box;
+}
+
+.main,.main-student{
+    margin-top: 20px;
+}
+
+.input-student{
+    margin-left: 500px;
+}
+
+.btn-add{
+    
+    margin-right: 55px;
+    margin-left: 75px;
+}
+
+
+.btn-update{
+    
+    margin-right: 55px;
+    margin-left: 70px;
+}
+
+.menu{
+    /* background: red; */
+    float: right;;
+}
+
+/* @media screen and (max-width:400px){
+    .menu{
+        float: left;
+    }
+} */

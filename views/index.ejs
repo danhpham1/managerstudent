@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css" integrity="sha384-Vkoo8x4CGsO3+Hhxv8T/Q5PaXtkKtu6ug5TOeNV6gBiFeWPGFN9MuhOf23Q9Ifjh" crossorigin="anonymous">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Manager Student</title>
+</head>
+<body>
+    <!-- This is header -->
+    <%- include('./layout/header') %>
+    <div class="container-fluid main">
+        <!-- This is menu list -->
+        <%- include('./layout/list-menu')%>
+        <div class="row  main-student">
+            <div class="col col-md-12 col-lg-12">
+                <!-- This is table layout -->
+                <% if(name =='table'){ %>
+                    <%- include('./layout/table-student') %>
+                <% } %>
+                <!-- This is form input layout -->
+                <% if(name =='add'){ %>
+                    <%- include('./layout/submit-form') %>
+                <% } %>
+
+                <!-- This is form updated -->
+                <% if(name =='update'){ %>
+                    <%- include('./layout/update-form') %>
+                <% } %>
+                    <!-- This is find table student -->
+                <% if(name =='findtable'){ %>
+                    <%- include('./layout/one-student') %>
+                <% } %>
+                
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="https://unpkg.com/ionicons@5.0.0/dist/ionicons.js"></script>
+</body>
+</html>

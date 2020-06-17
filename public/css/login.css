@@ -1,0 +1,28 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    margin: 0px;
+    padding: 0px;
+    background-image: url('../img/bg.jpg');
+    background-repeat: no-repeat;
+    height: 100%;
+    background-size: cover;
+}
+h2{
+    color: white;
+    /* justify-content: center; */
+    /* text-align: center; */
+}
+label{
+    color: white;
+    font-size: 30px;
+}
+.container-fluid{
+    margin-top: 100px;
+}
+
+.title{
+    margin-bottom: 30px;
+}
